@@ -1,0 +1,17 @@
+
+[profile.bench]
+debug = true
+
+[workspace]
+members = [
+    "memflow-win32",
+    "memflow-win32-defs",
+]
+
+default-members = [
+    "memflow-win32",
+    "memflow-win32-defs",
+]
+
+[patch.crates-io]
+memflow = { path="../memflow/memflow" }
