@@ -21,7 +21,7 @@ codecov = { repository = "github", branch = "master", service = "github" }
 crate-type = ["lib", "cdylib"]
 
 [dependencies]
-memflow = { version = "=0.2.0-beta11", default-features = false, git = "https://github.com/roadkillsanta/memflow.git"}
+memflow = { default-features = false, git = "https://github.com/roadkillsanta/memflow.git"}
 log = { version = "^0.4.14", default-features = false }
 pelite = { version = "^0.10.0", default-features = false }
 widestring = { version = "^1.0.2", default-features = false, features = ["alloc"] }
