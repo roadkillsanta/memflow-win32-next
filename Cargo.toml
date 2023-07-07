@@ -14,4 +14,4 @@ default-members = [
 ]
 
 [patch.crates-io]
-memflow = { path="../memflow/memflow" }
+memflow = { git = "https://github.com/roadkillsanta/memflow.git"}
